@@ -67,14 +67,14 @@ nav {
   height: 30px;
   border-radius: 20px;
   color: rgb(68, 68, 68);
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
   margin: 10px;
   font-family: "Roboto", sans-serif;
 }
 
 .nav-inactive {
-  border: outset rgba(0, 0, 0, 0.151) 1px;
+  background-color: rgba(157, 172, 179, 0.212);
 }
 
 .nav-inactive:hover {
@@ -95,10 +95,10 @@ nav {
 /* start of hover animations */
 @keyframes inactive-fadeIn {
   from {
-    background: rgba(47, 80, 97, 0.05);
+    background-color: rgba(157, 172, 179, 0.212);
   }
   to {
-    background-color: rgba(157, 172, 179, 0.123);
+    background-color: rgba(157, 172, 179, 0.582);
   }
 }
 
