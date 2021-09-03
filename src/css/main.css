@@ -1,0 +1,9 @@
+body {
+    background-color: #F4EAE6;
+}
+
+.flex-mid {
+    display: flex;
+    justify-content: center;    
+}
+
