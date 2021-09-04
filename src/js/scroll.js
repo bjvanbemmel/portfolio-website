@@ -4,7 +4,7 @@ window.addEventListener("scroll", (event) => {
     if (scroll == 0) {
       document.getElementById("nav").style.backgroundColor =
         "rgba(0, 0, 0, 0)";
-    } if (scroll != 0 && scroll < 350) {
+    } if (scroll != 0 && scroll < 450) {
       document.getElementById("nav").style.backgroundColor =
         "rgb(229, 127, 132)";
     }
