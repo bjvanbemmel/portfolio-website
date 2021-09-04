@@ -15,17 +15,95 @@
     <link rel="stylesheet" href="/src/css/nav.css" />
     <title>Beau Jean van Bemmel</title>
   </head>
-  <nav>
+  <nav id="nav">
     <div id="nav-items">
-      <a href="https://github.com/bjvanbemmel" class=""><img src="/src/img/github-logo.png"></a>
+      <a href="https://github.com/bjvanbemmel" class=""
+        ><img src="/src/img/github-logo.png"
+      /></a>
     </div>
     <div id="nav-bar">
       <a href="" class="nav-link nav-active">Home</a>
-      <a href="" class="nav-link nav-inactive">About me</a>
+      <a href="" class="nav-link nav-inactive">CV</a>
       <a href="" class="nav-link nav-inactive">Projects</a>
       <a href="" class="nav-link nav-inactive">Contact</a>
     </div>
   </nav>
-  <body>
+  <body id="bod">
+    <section id="layout-top">
+      <div id="pfp"></div>
+      <div class="column-text">
+        <h2>Portfolio</h2>
+        <h1>This website acts as my portfolio throughout my study.</h1>
+      </div>
+    </section>
+    <section id="layout-mid">
+      <div class="column-text">
+        <h2>Programming student</h2>
+        <h1>I'm studying <b><a href="https://ict-flex.nl/software-developer/">Software Development</a></b> at <b><a href="https://deltion.nl/">Deltion College</a></b>.</h1>
+        <h3>I have experience with:</h3>
+        <div id="exp-items">
+          <img src="/src/img/html5.png">
+          <img src="/src/img/css3.png">
+          <img src="/src/img/js.png">
+          <img src="/src/img/node.png">
+          <img src="/src/img/electron.png">
+          <img src="/src/img/git.png">
+          <img src="/src/img/debian.png">
+          <img src="/src/img/arch.png">
+          <img src="/src/img/bash.png">
+        </div>
+      </div>
+      <div id="deltion">
+    </section>
+    <section id="layout-bot">
+      <div class="column-text">
+        <h2>My workspace</h2>
+        <h1>Tools I use and how I use them:</h1>
+      </div>
+      <div id="wk-items">
+        <div class="wk-item">
+          <img src="/src/img/wsl.png">
+          <div class="wk-capt">Windows Terminal + WSL running Debian</div>
+        </div>
+        <div class="wk-item">
+          <img src="/src/img/vscode.png">
+          <div class="wk-capt">Visual Studio Code + WSL Remote</div>
+        </div>
+        <div class="wk-item">
+          <img src="/src/img/vps.png">
+          <div class="wk-capt">Debian VPS server running XAMPP</div>
+        </div>
+        <div class="wk-item">
+          <img src="/src/img/wsl.png">
+          <div class="wk-capt">Windows Terminal + WSL</div>
+        </div>
+        <div class="wk-item">
+          <img src="/src/img/wsl.png">
+          <div class="wk-capt">Windows Terminal + WSL</div>
+        </div>
+        <div class="wk-item">
+          <img src="/src/img/wsl.png">
+          <div class="wk-capt">Windows Terminal + WSL</div>
+        </div>
+      </div>
+      
+    </section>
   </body>
+  <script>
+    window.addEventListener("scroll", (event) => {
+      let scroll = this.scrollY;
+      console.log(scroll);
+      if (scroll == 0) {
+        document.getElementById("nav").style.backgroundColor =
+          "rgba(0, 0, 0, 0)";
+      } if (scroll != 0 && scroll < 350) {
+        document.getElementById("nav").style.backgroundColor =
+          "rgb(229, 127, 132)";
+      }
+      if (scroll >= 350) {
+        document.getElementById("nav").style.backgroundColor =
+          "rgb(66, 151, 160)";
+      }
+    });
+  </script>
 </html>

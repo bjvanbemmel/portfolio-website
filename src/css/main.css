@@ -1,3 +1,233 @@
 body {
-    background-color: #F4EAE6;
+  background-color: #e57f84;
+  font-family: "Roboto", sans-serif;
+}
+
+#layout-top {
+  width: 100%;
+  height: 400px;
+  background-color: #4297a0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column-text b {
+  font-weight: 800;
+}
+
+#layout-top h2 {
+  color: #f4eae6;
+  font-size: 100px;
+  font-weight: 700;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 1s;
+}
+
+#layout-top h1 {
+  color: #f4eae6;
+  font-size: 30px;
+  font-weight: 500;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 2s;
+}
+
+#pfp {
+  background-image: url("/src/img/pp.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 200px;
+  border: 10px solid #f4eae6;
+  min-width: 250px;
+  min-height: 250px;
+  margin-left: 200px;
+  margin-right: 100px;
+  opacity: 0;
+  animation: pfp-fadeIn 1s forwards;
+  animation-delay: 500ms;
+}
+
+#layout-mid {
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f4eae6;
+}
+
+#deltion {
+  background-image: url("/src/img/code.jpg");
+  background-position: top;
+  background-size: cover;
+  border-radius: 50px;
+  border: 10px solid #f4eae6;
+  width: 1000px;
+  min-height: 600px;
+  margin: 30px;
+  opacity: 0;
+  animation: pfp-fadeIn 1s forwards;
+  animation-delay: 3s;
+}
+
+#layout-mid a {
+  text-decoration: underline;
+  color: rgba(47, 80, 97, 0.8);
+}
+
+#layout-mid a:hover {
+  animation: layout-mid-a-hover 500ms forwards;
+}
+
+#layout-mid h2 {
+  text-align: center;
+  color: rgb(47, 80, 97);
+  font-size: 70px;
+  font-weight: 700;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 3500ms;
+}
+
+#layout-mid h1 {
+  color: rgb(47, 80, 97);
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 4500ms;
+}
+
+#layout-mid b {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+#layout-mid h3 {
+  margin-top: 40px;
+  color: rgb(47, 80, 97);
+  font-size: 22px;
+  font-weight: 800;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 5500ms;
+}
+
+#exp-items img {
+  height: 60px;
+  margin: 10px;
+  opacity: 0;
+  animation: opacity-fadeIn 1s forwards;
+  animation-delay: 6500ms;
+}
+
+#layout-bot {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  background-color: #e57f84;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#layout-bot h2 {
+    text-align: center;
+    color: #f4eae6;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#layout-bot h1 {
+    color: #f4eae6;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#layout-bot .column-text {
+    padding-top: 175px;
+    padding-bottom: 20px;
+}
+
+.wk-item {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.wk-capt {
+    width: 100%;
+    height: 25px;
+    background-color: #fff0e9;
+    border-radius: 0px 0px 15px 15px;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+#wk-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#wk-items img {
+    border-radius: 15px;
+    height: 250px;
+}
+
+/* start of animations */
+
+@keyframes pfp-fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes opacity-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes layout-mid-a-hover {
+  from {
+    color: rgba(47, 80, 97, 0.8);
+    font-weight: 800;
+  }
+  to {
+    color: rgba(47, 80, 97, 1);
+    font-weight: 900;
+  }
 }
