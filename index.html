@@ -33,7 +33,7 @@
       <div id="pfp"></div>
       <div class="column-text">
         <h2>Portfolio</h2>
-        <h1>This website acts as my portfolio throughout my study.</h1>
+        <h1>Beau Jean van Bemmel (18), aspiring Software Developer.</h1>
       </div>
     </section>
     <section id="layout-mid">
@@ -57,53 +57,84 @@
     </section>
     <section id="layout-bot">
       <div class="column-text">
-        <h2>My workspace</h2>
-        <h1>Tools I use and how I use them:</h1>
+        <h2 id="btm-h2">My workspace</h2>
+        <h1 id="btm-h1">Tools I use and how I use them:</h1>
       </div>
       <div id="wk-items">
-        <div class="wk-item">
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>I use WSL (Windows Subsystem for Linux) as my default terminal.
+              I prefer Linux commands over PowerShell, simply because they are about
+              a dozen times more intuitive. Being able to install and use any package
+            I want really helps the development process for me as well.</p>
+          </div>
           <img src="/src/img/wsl.webp">
           <div class="wk-capt">Windows Terminal + WSL running Debian</div>
         </div>
-        <div class="wk-item">
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>I use Microsoft's Visual Studio Code as my default code editor.
+              The tons of really useful extensions, Git integration and the built-in
+              terminal greatly improve my coding efficiency.
+            </p>
+          </div>
           <img src="/src/img/vscode.webp">
           <div class="wk-capt">Visual Studio Code + WSL Remote</div>
         </div>
-        <div class="wk-item">
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>I use a VPS server for tasks such as webhosting.
+              As a matter of fact, this very website is hosted on my VPS.
+              I do this via the XAMPP package, which is kind enough to give me an FTP
+              server and database as well. This VPS is also used for some of my personal
+              experiments.<br><br>
+              It costs 6 EUR a month, has a (virtual) 4c4t AMD EPYC CPU , 8GBs of RAM and a 250GB SATA SSD.
+            </p>
+          </div>
           <img src="/src/img/vps.webp">
           <div class="wk-capt">Debian VPS server running XAMPP</div>
         </div>
-        <div class="wk-item">
-          <img src="/src/img/wsl.webp">
-          <div class="wk-capt">Windows Terminal + WSL</div>
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>My laptop runs a dual boot installation. One half is Windows 10, the other Manjaro Linux.
+              Manjaro runs on the Arch kernel and is almost identical to it. It comes with an easy installer
+              and stability fixes. I use the i3-gaps window manager because I consider it to be the most efficient
+              way to use a computer. <br><br>
+              During my study at Deltion I will mostly be using Windows.
+            </p>
+          </div>
+          <img src="/src/img/manjaro.webp">
+          <div class="wk-capt">Manjaro Linux running on my laptop</div>
         </div>
-        <div class="wk-item">
-          <img src="/src/img/wsl.webp">
-          <div class="wk-capt">Windows Terminal + WSL</div>
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>I have my own cloud server running on a Pi 4 (8GB RAM).
+              The server hosts CIFS shares that I can mount on both Windows, Linux and mobile.
+              The CIFS shares are mostly used to stream media and store Deltion assignments.
+              I use WireGuard as a VPN server to connect to my cloud from external networks.
+              <br><br>This Pi also runs Docker, with Portainer acting as the interface.
+              I run a qBittorrent container which is hooked up to an ExpressVPN container.
+            </p>
+          </div>
+          <img src="/src/img/vault.webp">
+          <div class="wk-capt">Raspberry Pi 4 running OpenMediaVault</div>
         </div>
-        <div class="wk-item">
-          <img src="/src/img/wsl.webp">
-          <div class="wk-capt">Windows Terminal + WSL</div>
+        <div class="wk-item" id="wk-item">
+          <div class="wk-item-hover">
+            <p>I use Firefox as my main development browser because I am a self-respecting webdeveloper.
+              Firefox's dev-tools make using CSS Flex a ton easier.<br><br>
+
+              My secondary browser is Brave. Brave is a browser running on Google's Chromium. I use both
+              of these webbrowsers to test and develop my webapplications.
+            </p>
+          </div>
+          <img src="/src/img/firefox.webp">
+          <div class="wk-capt">Firefox as main development browser</div>
         </div>
-      </div>
       
     </section>
+    
   </body>
-  <script>
-    window.addEventListener("scroll", (event) => {
-      let scroll = this.scrollY;
-      console.log(scroll);
-      if (scroll == 0) {
-        document.getElementById("nav").style.backgroundColor =
-          "rgba(0, 0, 0, 0)";
-      } if (scroll != 0 && scroll < 350) {
-        document.getElementById("nav").style.backgroundColor =
-          "rgb(229, 127, 132)";
-      }
-      if (scroll >= 350) {
-        document.getElementById("nav").style.backgroundColor =
-          "rgb(66, 151, 160)";
-      }
-    });
-  </script>
+<script src="/src/js/scroll.js"></script>
+<script src="/src/js/wk-hover.js"></script>
 </html>
