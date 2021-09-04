@@ -34,7 +34,7 @@ nav {
   right: 0;
   height: 50px;
   width: 10%;
-  margin: 50px;
+  margin: 10px;
 }
 
 #nav-items img {
@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-inactive {
-  background-color: rgba(157, 172, 179, 0.212);
+  background-color: rgba(157, 172, 179, 0.2);
 }
 
 .nav-inactive:hover {
@@ -98,7 +98,7 @@ nav {
     background-color: rgba(157, 172, 179, 0.212);
   }
   to {
-    background-color: rgba(157, 172, 179, 0.582);
+    background-color: rgba(157, 172, 179, 0.342);
   }
 }
 
