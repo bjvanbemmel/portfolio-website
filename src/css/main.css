@@ -31,8 +31,8 @@ body {
   font-size: 100px;
   font-weight: 700;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 1s;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 800ms;
 }
 
 #layout-top h1 {
@@ -40,12 +40,12 @@ body {
   font-size: 30px;
   font-weight: 500;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 2s;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 1s;
 }
 
 #pfp {
-  background-image: url("/src/img/pp.jpg");
+  background-image: url("/src/img/pp.webp");
   background-position: center;
   background-size: cover;
   border-radius: 200px;
@@ -55,7 +55,7 @@ body {
   margin-left: 200px;
   margin-right: 100px;
   opacity: 0;
-  animation: pfp-fadeIn 1s forwards;
+  animation: pfp-fadeIn 300ms forwards;
   animation-delay: 500ms;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 #deltion {
-  background-image: url("/src/img/code.jpg");
+  background-image: url("/src/img/code.webp");
   background-position: top;
   background-size: cover;
   border-radius: 50px;
@@ -81,8 +81,8 @@ body {
   min-height: 600px;
   margin: 30px;
   opacity: 0;
-  animation: pfp-fadeIn 1s forwards;
-  animation-delay: 3s;
+  animation: pfp-fadeIn 300ms forwards;
+  animation-delay: 1200ms;
 }
 
 #layout-mid a {
@@ -91,7 +91,7 @@ body {
 }
 
 #layout-mid a:hover {
-  animation: layout-mid-a-hover 500ms forwards;
+  animation: layout-mid-a-hover 300ms forwards;
 }
 
 #layout-mid h2 {
@@ -100,8 +100,8 @@ body {
   font-size: 70px;
   font-weight: 700;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 3500ms;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 1500ms;
 }
 
 #layout-mid h1 {
@@ -109,8 +109,8 @@ body {
   font-size: 20px;
   font-weight: 500;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 4500ms;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 1700ms;
 }
 
 #layout-mid b {
@@ -124,16 +124,16 @@ body {
   font-size: 22px;
   font-weight: 800;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 5500ms;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 1900ms;
 }
 
 #exp-items img {
   height: 60px;
   margin: 10px;
   opacity: 0;
-  animation: opacity-fadeIn 1s forwards;
-  animation-delay: 6500ms;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 2200ms;
 }
 
 #layout-bot {

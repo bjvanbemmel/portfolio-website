@@ -17,7 +17,7 @@ nav {
   background-color: none;
   height: 0px;
   opacity: 0;
-  animation: nav-fadeIn 1s forwards;
+  animation: nav-fadeIn 300ms forwards;
   animation-delay: 200ms;
   width: 100%;
   z-index: 1;
