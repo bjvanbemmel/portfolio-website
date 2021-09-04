@@ -152,6 +152,8 @@ body {
   font-size: 70px;
   font-weight: 700;
   opacity: 0;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 2600ms;
 }
 
 #layout-bot h1 {
@@ -159,6 +161,8 @@ body {
   font-size: 20px;
   font-weight: 500;
   opacity: 0;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 2800ms;
 }
 
 #layout-bot .column-text {
@@ -195,7 +199,8 @@ body {
   align-items: center;
   padding-bottom: 100px;
   opacity: 0;
-  transition: opacity 300ms;
+  animation: opacity-fadeIn 300ms forwards;
+  animation-delay: 3000ms;
 }
 
 #wk-items img {

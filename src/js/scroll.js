@@ -12,11 +12,4 @@ window.addEventListener("scroll", (event) => {
       document.getElementById("nav").style.backgroundColor =
         "rgb(66, 151, 160)";
     }
-    if (scroll >= 480) {
-      document.getElementById("btm-h2").style.animation = "opacity-fadeIn 300ms forwards";
-      document.getElementById("btm-h1").style.animation = "opacity-fadeIn 300ms forwards";
-    }
-    if (scroll >= 650) {
-      document.getElementById("wk-items").style.opacity = "1";
-    }
   });
