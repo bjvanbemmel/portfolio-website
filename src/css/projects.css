@@ -65,6 +65,10 @@ header h1 {
   margin-right: auto;
 }
 
+.img-container {
+  margin-right: 2%;
+}
+
 .tab img {
     opacity: 0;
     height: 60px;
