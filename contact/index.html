@@ -29,6 +29,49 @@
     </div>
   </nav>
   <body id="bod">
+    <section id="fade" onclick="closePop()"></section>
+    <section class="container" id="cont1">
+      <a href="mailto://97085143@st.deltion.nl"></a>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="300px"
+        viewBox="0 0 24 24"
+        width="300px"
+        fill="#000000"
+      >
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path
+          d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+        />
+      </svg>
+    </section>
+    <section class="container" id="cont2" onclick="popUp()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="300px"
+        viewBox="0 0 24 24"
+        width="300px"
+        fill="#000000"
+      >
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path
+          d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"
+        />
+      </svg>
+    </section>
+    <section class="popup" id="phone">
+      <div class="button" onclick="closePop()" id="close">Annuleer</div>
+      <div class="button" onclick="number()" id="understood">Ik ga akkoord</div>
+      <h1>Voordat u doorgaat:</h1>
+      <p>
+        U heeft mijn mobiele nummer geselecteerd. Ik zou het enorm waarderen als
+        u eerst contact op zou willen nemen via e-mail of SMS. Graag alleen te
+        bellen als u <b>(A) een stage/werkplek ter beschikking hebt</b> of <b>(B) u zo
+        spoedig mogelijk een reactie nodig hebt</b>.
+      </p>
+      <div id="number">(+31)636295096</div>
+    </section>
   </body>
-<script src="/src/js/scroll.js"></script>
+  <script src="/src/js/scroll.js"></script>
+  <script src="/src/js/contact.js"></script>
 </html>
