@@ -7,7 +7,7 @@ function dropdown1() {
   } else {
     active1 = 0;
     document.getElementById("drop-img1").style.rotate = "90deg";
-    document.getElementById("drop1").style.backgroundColor = "#00000017";
+    document.getElementById("drop1").style.backgroundColor = "#e6e6e6";
     document.getElementById("sub1").style.display = "none";
   }
 }
