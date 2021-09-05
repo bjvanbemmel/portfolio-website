@@ -1,29 +1,16 @@
 function dropdown1() {
   if (active1 == 0) {
+    document.getElementById("sub1").style.padding = "20px";
     document.getElementById("sub1").style.height = "500px";
+    document.getElementById("sub1").style.opacity = "1";
+    document.getElementById("src1").src = "https://cdn.bjvanbemmel.nl/launchpad-preview.mp4";
     active1++;
   } else {
+    document.getElementById("sub1").style.padding = "0px";
     document.getElementById("sub1").style.height = "0px";
+    document.getElementById("sub1").style.opacity = "0";
+    document.getElementById("src1").src = "";
+
     active1 = 0;
-  }
-}
-
-function dropdown2() {
-  if (active2 == 0) {
-    document.getElementById("sub2").style.height = "500px";
-    active2++;
-  } else {
-    document.getElementById("sub2").style.height = "0px";
-    active2 = 0;
-  }
-}
-
-function dropdown3() {
-  if (active3 == 0) {
-    document.getElementById("sub3").style.height = "500px";
-    active3++;
-  } else {
-    document.getElementById("sub3").style.height = "0px";
-    active3 = 0;
   }
 }

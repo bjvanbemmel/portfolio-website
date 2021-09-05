@@ -41,24 +41,30 @@
       <section id="tab"></section>
       <section class="tab" id="tab1" onclick="dropdown1()">
         <h2>Music Launchpad</h2>
+        <img src="/src/img/html5.webp" />
+        <img src="/src/img/css3.webp" />
+        <img src="/src/img/js.webp" />
+        <img src="/src/img/node.webp" />
+        <img src="/src/img/electron.webp" />
       </section>
       <div class="subtext" id="sub1">
-        <p></p>
+        <section class="left">
+          <h3>Electron-based Music launcher</h3>
+          <video id="src1" controls>
+          </video>
+        </section>
+        <p>
+          Music Launchpad is a webapplication running on the Electron framework.
+          I hated having to browse through my folders to listen to the music I wanted,
+          so I ended up creating an app to bypass that.<br><br>
+          This application listens for key inputs from the user. I am using a messy
+          switch statement to handle most of this. As you can see in the video, I am not using
+          my keyboard. Instead I am using the <b><a href="https://www.coolblue.nl/product/735409/novation-launchpad-mk2.html">Novation Launchpad MK2</a></b>.
+          Another program called <b><a href="https://www.bome.com/products/miditranslator">Bome's MIDI translator</a></b>
+          translates the MIDI inputs into regular keystrokes. For this I had to learn how to use hexadecimals.
+          <br><br><br><br><br>Check this project out on <b><a href="https://github.com/UsamiGit/musiclaunchpadv2">Github</a></b>.
+        </p>
       </div>
-      <section class="tab" id="tab2" onclick="dropdown2()">
-        <h2>Music Launchpad</h2>
-      </section>
-      <div class="subtext" id="sub2">
-        <p></p>
-      </div>
-      <section class="tab" id="tab3" onclick="dropdown3()">
-        <h2>Music Launchpad</h2>
-      </section>
-      <div class="subtext" id="sub3">
-        <p></p>
-      </div>
-    </section>
   </body>
-  <script src="/src/js/scroll.js"></script>
   <script src="/src/js/projects-dropdown.js"></script>
 </html>

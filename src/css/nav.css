@@ -20,8 +20,8 @@ nav {
   animation: nav-fadeIn 300ms forwards;
   animation-delay: 200ms;
   width: 100%;
-  z-index: 2;
-  transition: background-color 500ms;
+  z-index: 10;
+  transition: background-color 200ms;
 }
 
 #nav-bar {
