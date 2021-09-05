@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="/src/css/projects.css" />
     <link rel="stylesheet" href="/src/css/fixes.css" />
     <link rel="stylesheet" href="/src/css/nav.css" />
+    <script>
+      var active1 = 0;
+      var active2 = 0;
+      var active3 = 0;
+    </script>
     <title>Beau Jean van Bemmel</title>
   </head>
   <nav id="nav">
@@ -29,6 +34,31 @@
     </div>
   </nav>
   <body id="bod">
+    <header>
+      <h1>Projects:</h1>
+    </header>
+    <section class="container">
+      <section id="tab"></section>
+      <section class="tab" id="tab1" onclick="dropdown1()">
+        <h2>Music Launchpad</h2>
+      </section>
+      <div class="subtext" id="sub1">
+        <p></p>
+      </div>
+      <section class="tab" id="tab2" onclick="dropdown2()">
+        <h2>Music Launchpad</h2>
+      </section>
+      <div class="subtext" id="sub2">
+        <p></p>
+      </div>
+      <section class="tab" id="tab3" onclick="dropdown3()">
+        <h2>Music Launchpad</h2>
+      </section>
+      <div class="subtext" id="sub3">
+        <p></p>
+      </div>
+    </section>
   </body>
-<script src="/src/js/scroll.js"></script>
+  <script src="/src/js/scroll.js"></script>
+  <script src="/src/js/projects-dropdown.js"></script>
 </html>
