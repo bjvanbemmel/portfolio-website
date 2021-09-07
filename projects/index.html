@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta content="Beau Jean van Bemmel" property="og:title" />
+    <meta content="Software Developer student @ Deltion College." property="og:description" />
+    <meta content="https://bjvanbemmel.nl/" property="og:url" />
+    <meta content="https://bjvanbemmel.nl/src/img/pp.webp" property="og:image" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="    " content="width=device-width, initial-scale=1.0" />
@@ -41,11 +45,13 @@
       <section id="tab"></section>
       <section class="tab" id="tab1" onclick="dropdown1()">
         <h2>Music Launchpad</h2>
-        <img src="/src/img/html5.webp" />
-        <img src="/src/img/css3.webp" />
-        <img src="/src/img/js.webp" />
-        <img src="/src/img/node.webp" />
-        <img src="/src/img/electron.webp" />
+        <div class="img-container">
+          <img src="/src/img/html5.webp" />
+          <img src="/src/img/css3.webp" />
+          <img src="/src/img/js.webp" />
+          <img src="/src/img/node.webp" />
+          <img src="/src/img/electron.webp" />
+        </div>
       </section>
       <div class="subtext" id="sub1">
         <section class="left">
@@ -54,15 +60,13 @@
           </video>
         </section>
         <p>
-          Music Launchpad is a webapplication running on the Electron framework.
-          I hated having to browse through my folders to listen to the music I wanted,
-          so I ended up creating an app to bypass that.<br><br>
-          This application listens for key inputs from the user. I am using a messy
-          switch statement to handle most of this. As you can see in the video, I am not using
-          my keyboard. Instead I am using the <b><a href="https://www.coolblue.nl/product/735409/novation-launchpad-mk2.html">Novation Launchpad MK2</a></b>.
-          Another program called <b><a href="https://www.bome.com/products/miditranslator">Bome's MIDI translator</a></b>
-          translates the MIDI inputs into regular keystrokes. For this I had to learn how to use hexadecimals.
-          <br><br><br><br><br>Check this project out on <b><a href="https://github.com/UsamiGit/musiclaunchpadv2">Github</a></b>.
+          Music Launchpad is een webapplicatie dat draait op Electron.
+          Ik had er altijd een hekel aan om te moeten zoeken door al mijn mappen wanneer ik een liedje wilde luisteren.
+          Uiteindelijk heb ik zelf een applicatie ontwikkeld die dit werk voor mij overneemt.<br><br>
+          Deze applicatie luistert naar key inputs van de gebruiker. Ik gebruik een hier een switch statement voor.
+          Zoals u kunt zien in the video gebruik ik mijn toetsenbord niet. In plaats van een toetsenbord gebruik ik de <b><a href="https://www.coolblue.nl/product/735409/novation-launchpad-mk2.html">Novation Launchpad MK2</a></b>.
+          Een ander programma genaamd <b><a href="https://www.bome.com/products/miditranslator">Bome's MIDI translator</a></b> vertaalt de MIDI inputs naar reguliere keystrokes. Hiervoor moest ik hexadecimalen leren.
+          <br><br><br><br><br>Vind de code op <b><a href="https://github.com/UsamiGit/musiclaunchpadv2">Github</a></b>.
         </p>
       </div>
   </body>
