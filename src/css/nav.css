@@ -81,10 +81,11 @@ nav {
 
 .nav-inactive {
   background-color: #ffdbcc;
+  transition: background-color 100ms;
 }
 
 .nav-inactive:hover {
-  animation: inactive-fadeIn 300ms forwards;
+  background-color: #e9c4b4;
 }
 
 .nav-active {
@@ -92,10 +93,11 @@ nav {
   text-decoration: none;
   font-weight: 600;
   background: rgba(47, 80, 97, 1);
+  transition: background-color 100ms;
 }
 
 .nav-active:hover {
-  animation: active-fadeIn 300ms forwards;
+  background: rgb(25, 42, 51);
 }
 
 /* start of hover animations */
