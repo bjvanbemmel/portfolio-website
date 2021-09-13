@@ -69,8 +69,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 85px;
+  min-width: 85px;
   height: 30px;
+  padding: 0px 5px 0px 5px;
   border-radius: 20px;
   color: rgb(68, 68, 68);
   font-weight: 400;
