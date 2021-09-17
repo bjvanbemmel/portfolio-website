@@ -34,8 +34,8 @@
     </div>
   </nav>
   <body id="bod">
-    <section id="fade" onclick="closePop()"></section>
-    <section class="container" id="cont1">
+    <section id="fade" onclick="phoneDown(); mailDown();"></section>
+    <section class="container" id="cont1" onclick="mailUp()">
       <a href="mailto://97085143@st.deltion.nl"></a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@
         />
       </svg>
     </section>
-    <section class="container" id="cont2" onclick="popUp()">
+    <section class="container" id="cont2" onclick="phoneUp()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="300px"
@@ -65,7 +65,7 @@
       </svg>
     </section>
     <section class="popup" id="phone">
-      <div class="button" onclick="closePop()" id="close">Annuleer</div>
+      <div class="button" onclick="phoneDown()" id="close">Annuleer</div>
       <div class="button" onclick="number()" id="understood">Ik ga akkoord</div>
       <h1>Voordat u doorgaat:</h1>
       <p>
@@ -75,6 +75,10 @@
         <b>(B) u zo spoedig mogelijk een reactie nodig hebt</b>.
       </p>
       <div id="number">(+31)636295096</div>
+    </section>
+    <section class="popup" id="mail">
+      <p>
+      <div id="email">97085143@st.deltion.nl</div>
     </section>
   </body>
   <script src="/src/js/scroll.js"></script>

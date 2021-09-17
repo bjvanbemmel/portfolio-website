@@ -4,7 +4,7 @@ function number() {
   document.getElementById("close").innerHTML = "Sluiten";
 }
 
-function closePop() {
+function phoneDown() {
   document.getElementById("phone").style.display = "none";
   document.getElementById("number").style.filter = "blur(5px)";
   document.getElementById("number").style.userSelect = "none";
@@ -12,7 +12,17 @@ function closePop() {
   document.getElementById("close").innerHTML = "Annuleer";
 }
 
-function popUp() {
+function phoneUp() {
   document.getElementById("phone").style.display = "flex";
   document.getElementById("fade").style.display = "flex";
+}
+
+function mailUp() {
+  document.getElementById("mail").style.display = "flex";
+  document.getElementById("fade").style.display = "flex";
+}
+
+function mailDown() {
+  document.getElementById("mail").style.display = "none";
+  document.getElementById("fade").style.display = "none";
 }
