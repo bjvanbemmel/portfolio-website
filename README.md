@@ -1,2 +1,2 @@
 # Portfolio website [v2]
-## Rework of my portfolio website.
+Rework of my portfolio website.
