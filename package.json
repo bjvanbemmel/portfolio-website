@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/assets/css/main.css --watch",
+    "server": "cd ./dist/ && php -S localhost:8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjvanbemmel/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjvanbemmel/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/bjvanbemmel/portfolio-website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
