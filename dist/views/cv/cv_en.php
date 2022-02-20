@@ -28,7 +28,7 @@
                 <li><a href="#skills">>> Skills</a></li>
                 <li><a href="#education">>> Education</a></li>
                 <li><a href="#work">>> Work experience</a></li>
-                <li><a href="#language">>> Language</a></li>
+                <li><a href="#language">>> Languages</a></li>
             </ul>
         </div><br>
         <div id="contact">
