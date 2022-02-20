@@ -12,7 +12,7 @@ switch ($request) {
         require __DIR__ . '/views/homepage.php';
         break;
     case '/cv':
-        require __DIR__ . '/views/cv.php';
+        require __DIR__ . '/views/cv/cv_selector.php';
         break;
     default:
         http_response_code(404);
