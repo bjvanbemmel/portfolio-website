@@ -11,6 +11,7 @@ switch ($request) {
     case '':
         require __DIR__ . '/views/homepage.php';
         break;
+    case '/cv/':
     case '/cv':
         require __DIR__ . '/views/cv/cv_selector.php';
         break;
