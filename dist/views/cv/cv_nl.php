@@ -80,7 +80,7 @@
                         <li>Security</li>
                     </ul>
                 </li><br>
-                <li><span class="font-semibold text-lg">Dienstverlening & Zorg</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 07-2021]</span><br>MBO 1<br><span class="font-semibold">Curriculum:</span>
+                <li><span class="font-semibold text-lg">Dienstverlening & Zorg</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 07/2021]</span><br>MBO 1<br><span class="font-semibold">Curriculum:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>Nederlands</li>
                         <li>Rekenen<Tailwind/li>
@@ -92,7 +92,7 @@
         <div class="my-4" id="work">
             <h2 class="my-1 text-2xl font-semibold">Werk ervaring:</h2>
             <ul class="list-disc">
-                <li><span class="font-semibold text-lg">IT Assistent / Conciërge [stage]</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[12/2020 - 07-2021]</span><br><span class="font-semibold">Werkzaamheden:</span>
+                <li><span class="font-semibold text-lg">IT Assistent / Conciërge [stage]</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[12/2020 - 07/2021]</span><br><span class="font-semibold">Werkzaamheden:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>Studenten & docenten helpen met IT-gerelateerde problemen</li>
                         <li>Installeren & inspoelen van nieuwe computers binnen ons netwerk</li>
@@ -100,7 +100,7 @@
                         <li>Regels handhaven</li>
                     </ul>
                 </li><br>
-                <li><span class="font-semibold text-lg">QA Assistent [stage]</span><br><span class="text-lg">ICT-Kringloop Zwolle</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 12-2020]</span><br><span class="font-semibold">Werkzaamheden:</span>
+                <li><span class="font-semibold text-lg">QA Assistent [stage]</span><br><span class="text-lg">ICT-Kringloop Zwolle</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 12/2020]</span><br><span class="font-semibold">Werkzaamheden:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>2e hands toetsenborden, muizen, monitoren en speakers testen</li>
                         <li>2e hands toetsenborden, muizen, monitoren en PSUs schoonmaken</li>
