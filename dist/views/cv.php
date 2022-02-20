@@ -6,15 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <!-- Start of Embed -->
+    <meta content="CV - Beau Jean van Bemmel" property="og:title">
+    <meta content="My name is Beau Jean van Bemmel and I am a Software Development student @ Deltion College." property="og:description">
+    <meta content="https://bjvanbemmel.nl/cv" property="og:url">
+    <meta content="https://bjvanbemmel.nl/assets/img/portfolio.jpg" property="og:image">
+    <meta content="#36EEE0" property="theme-color">
+    <!-- End of Embed -->
     <title>CV - Beau Jean van Bemmel</title>
 </head>
 
-<body class="p-4 flex flex-col justify-center items-center dark:bg-zinc-900 text-zinc-200">
+<body class="p-4 flex flex-col justify-center items-center dark:bg-zinc-900 dark:text-zinc-200 bg-zinc-100 text-zinc-900">
     <h1 class="text-4xl font-semibold">Curriculum Vitae</h1>
     <section class="my-4 p-8 lg:max-w-4xl sm:max-w-2xl" id="content">
         <div class="my-4" id="table-of-contents">
         <h2 class="my-1 text-2xl font-semibold">Table of Contents:</h2>
-            <ul class="text-zinc-400 underline">
+            <ul class="dark:text-zinc-400 text-zinc-700 underline">
                 <li><a href="#table-of-contents">>> Table of contents</a></li>
                 <li><a href="#contact">>> Contact information</a></li>
                 <li><a href="#interests">>> Area of interest</a></li>
