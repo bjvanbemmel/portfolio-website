@@ -43,7 +43,7 @@
         </div><br>
         <div id="profile">
             <h2 class="my-1 text-2xl font-semibold">Profile:</h2>
-            <p>My name is Beau Jean van Bemmel and I am a software development student at Deltion College in Zwolle. I mostly focus on back-end web development using PHP and making CLI applications using Go. Perfectionist but flexibel, experienced with SCRUM and a quick learner.</p>
+            <p>My name is Beau Jean van Bemmel and I am a software development student at Deltion College in Zwolle. I mostly focus on back-end web development using PHP and making CLI applications using Go. Perfectionistic but flexibel, experienced with SCRUM and a quick learner.</p>
         </div><br>
         <div id="skills">
             <h2 class="my-1 text-2xl font-semibold">Skills:</h2>
