@@ -9,13 +9,13 @@ $request = $_SERVER['REQUEST_URI'];
 switch ($request) {
     case '/':
     case '':
-        require __DIR__ . '/views/homepage.html';
+        require __DIR__ . '/views/homepage.php';
         break;
-    case '/test':
-        require __DIR__ . '/views/test.html';
+    case '/cv':
+        require __DIR__ . '/views/cv.php';
         break;
     default:
         http_response_code(404);
-        require __DIR__ . '/views/404.html';
+        require __DIR__ . '/views/404.php';
         break;
 }
