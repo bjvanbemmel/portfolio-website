@@ -28,7 +28,7 @@
                 <li><a href="#skills">>> Vaardigheden</a></li>
                 <li><a href="#education">>> Educatie</a></li>
                 <li><a href="#work">>> Werk ervaring</a></li>
-                <li><a href="#languages">>> Taalvaardigheden</a></li>
+                <li><a href="#language">>> Taalvaardigheden</a></li>
             </ul>
         </div><br>
         <div id="contact">
