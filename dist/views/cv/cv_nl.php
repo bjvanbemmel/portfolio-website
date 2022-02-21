@@ -83,7 +83,7 @@
                 <li><span class="font-semibold text-lg">Dienstverlening & Zorg</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 07/2021]</span><br>MBO 1<br><span class="font-semibold">Curriculum:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>Nederlands</li>
-                        <li>Rekenen<Tailwind/li>
+                        <li>Rekenen<Tailwind /li>
                         <li>Loopbaan Burgerschap</li>
                     </ul>
                 </li>
@@ -142,6 +142,16 @@
             </table>
         </div>
     </section>
+    <a title="Download as PDF" download="bjvanbemmel_cv_nl.pdf" href="../../assets/documents/bjvanbemmel_cv_nl.pdf" id="download" class="rounded-full bg-zinc-700 text-zinc-100 dark:bg-zinc-100 p-2 m-4 fixed bottom-0 right-0 opacity-75 hover:opacity-100 transition-opacity">
+        <svg class="dark:fill-zinc-900 fill-zinc-100" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="2rem" viewBox="0 0 24 24" width="2rem" fill="">
+            <g>
+                <rect fill="none" height="24" width="24" />
+            </g>
+            <g>
+                <path d="M18,15v3H6v-3H4v3c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-3H18z M17,11l-1.41-1.41L13,12.17V4h-2v8.17L8.41,9.59L7,11l5,5 L17,11z" />
+            </g>
+        </svg>
+    </a>
 </body>
 
 </html>
