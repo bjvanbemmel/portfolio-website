@@ -2,7 +2,7 @@
 // ROUTER
 // VERSION: a1.0
 // AUTHOR: Tania Rascia
-// USED FOR / CHANGED BY: Beau Jean van Bemmel
+// EDITED BY: Beau Jean van Bemmel
 
 $request = $_SERVER['REQUEST_URI'];
 
