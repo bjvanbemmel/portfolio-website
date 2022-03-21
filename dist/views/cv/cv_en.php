@@ -83,7 +83,7 @@
                 <li><span class="font-semibold text-lg">Dienstverlening & Zorg</span><br><span class="text-lg">Landstede MBO</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2020 - 07/2021]</span><br>MBO 1<br><span class="font-semibold">Curriculum:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>Dutch</li>
-                        <li>Math<Tailwind /li>
+                        <li>Math</li>
                         <li>Civics</li>
                     </ul>
                 </li>
