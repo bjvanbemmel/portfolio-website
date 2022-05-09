@@ -35,7 +35,7 @@
             <h2 class="my-1 text-2xl font-semibold">Contact informatie:</h2>
             <p><span class="font-semibold">Naam: </span>Beau Jean van Bemmel</p>
             <p><span class="font-semibold">Titel: </span>Web developer</p>
-            <p><span class="font-semibold">Nationaliteit: </span>Dutch</p>
+            <p><span class="font-semibold">Nationaliteit: </span>Nederlands</p>
             <p><span class="font-semibold">Geboortedatum: </span>May 9th, 2003</p>
             <p><span class="font-semibold">Persoonlijke e-mail: </span> <a class="underline" href="mailto:beauvanbemmel@live.nl">beauvanbemmel@live.nl</a></p>
             <p><span class="font-semibold">School e-mail: </span> <a class="underline" href="mailto:97085143@st.deltion.nl">97085143@st.deltion.nl</a> <span class="font-light">[voorkeur voor professionele vragen]</span></p>
