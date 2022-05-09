@@ -70,7 +70,7 @@
         <div class="my-4" id="education">
             <h2 class="my-1 text-2xl font-semibold">Educatie:</h2>
             <ul class="list-disc">
-                <li><span class="font-semibold text-lg">Software Developer</span><br><span class="text-lg">Deltion College</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2021 - Current]</span><br>MBO 4<br><span class="font-semibold">Curriculum:</span>
+                <li><span class="font-semibold text-lg">Software Developer</span><br><span class="text-lg">Deltion College</span> <span class="italic text-slate-600 dark:text-slate-300">[08/2021 - Heden]</span><br>MBO 4<br><span class="font-semibold">Curriculum:</span>
                     <ul class="relative ml-4 list-disc">
                         <li>HTML & CSS</li>
                         <li>Javascript</li>
