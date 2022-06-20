@@ -36,9 +36,9 @@
             <p><span class="font-semibold">Naam: </span>Beau Jean van Bemmel</p>
             <p><span class="font-semibold">Titel: </span>Web developer</p>
             <p><span class="font-semibold">Nationaliteit: </span>Nederlands</p>
-            <p><span class="font-semibold">Geboortedatum: </span>May 9th, 2003</p>
+            <p><span class="font-semibold">Geboortedatum: </span>9 Mei, 2003</p>
             <p><span class="font-semibold">Persoonlijke e-mail: </span> <a class="underline" href="mailto:beauvanbemmel@live.nl">beauvanbemmel@live.nl</a></p>
-            <p><span class="font-semibold">School e-mail: </span> <a class="underline" href="mailto:97085143@st.deltion.nl">97085143@st.deltion.nl</a> <span class="font-light">[voorkeur voor professionele vragen]</span></p>
+            <p><span class="font-semibold">School e-mail: </span> <a class="underline" href="mailto:97085143@st.deltion.nl">97085143@st.deltion.nl</a></p>
             <p><span class="font-semibold">Mobiel: </span>(+31) 0636295096</p>
         </div><br>
         <div id="profile">
@@ -55,12 +55,11 @@
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Javascript</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">PHP</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Go</div>
-                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Shell</div>
+                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Bash</div>
+                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Laravel</div>
+                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Vue</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">MySQL</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Linux</div>
-                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Fedora</div>
-                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Ubuntu</div>
-                <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Debian</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">OOP</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">SCRUM</div>
                 <div class="rounded-md bg-slate-600 text-slate-200 dark:bg-slate-200 dark:text-slate-900 px-2 py-1 mr-2 mb-2 font-semibold">Presentaties</div>
@@ -123,7 +122,7 @@
                     <tr>
                         <td class="w-32 font-semibold">Nederlands</td>
                         <td class="w-32">Moedertaal</td>
-                        <td class="w-32">Geavanceerd</td>
+                        <td class="w-32">Moedertaal</td>
                         <td>Moedertaal</td>
                     </tr>
                     <tr>
